@@ -1,0 +1,16 @@
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\bin\Debug\TrainTicketSalesAutomation.exe.config
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\bin\Debug\TrainTicketSalesAutomation.exe
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\bin\Debug\TrainTicketSalesAutomation.pdb
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.csproj.AssemblyReference.cache
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.Form1.resources
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.Properties.Resources.resources
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.csproj.GenerateResource.cache
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.csproj.CoreCompileInputs.cache
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.exe
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.pdb
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.Form2.resources
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\bin\Debug\TrainTicketSalesAutomation.exe.manifest
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\bin\Debug\TrainTicketSalesAutomation.application
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.exe.manifest
+C:\Users\Enes Orhan\Desktop\Lessons\TrainTicketSalesAutomation\TrainTicketSalesAutomation\obj\Debug\TrainTicketSalesAutomation.application

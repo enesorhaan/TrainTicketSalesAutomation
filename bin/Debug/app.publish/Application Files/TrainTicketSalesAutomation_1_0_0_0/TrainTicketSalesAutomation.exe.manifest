@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TrainTicketSalesAutomation.exe" version="1.0.0.0" publicKeyToken="a3aa895aa5205ec2" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TrainTicketSalesAutomation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TrainTicketSalesAutomation.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TrainTicketSalesAutomation.exe" size="31680">
+      <assemblyIdentity name="TrainTicketSalesAutomation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3fp3g+Sbt8PL9ISJiXg1fWFPMJ3P2yTxo80IZ6XIbhk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="TrainTicketSalesAutomation.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ORHAN\Enes Orhan" issuerKeyHash="7b0e25bc1f1c238379606d8cdbc12b32d240e601" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3r8+EQrddEmzfPRYN4Qt/ZQTxx3z62N8WEY9r2ZaJlQ=</DigestValue></Reference></SignedInfo><SignatureValue>MI3V0Q2Qf+f/xOPKOb7kJNo2hp4GthZkySLjKVn+ctkwXrMBUPGu2a9YHGuhAfhenXqo5bFgsBmc/CPzJQ+gBGg73OXdIE+grFlw00KRM4eR8IPDTfzoBQwSBW6/vL39GpOI3m+ZKm9/3tS66sj70DpjTVsmdDewdtWbsiQnLMM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rrVaTDzL7wn1cWzPYMjAbHFgDd/QqXCPv9W79WqbDz7Q1Le7ZKjnHYH8yq7wPydqtWaukvCpNnLNjAYJj7tNCYxQoti2zPMnaLh/IJlB0P4T1kB4ah3vInmySN5U1LWrs/Nc4bW3aL+VzEgwRcDjm1k57OukYM/O7TyWbI1fAn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="54265a66af3d46587c63ebf31dc71394fd2d843758f47cb34974dd0a113ebfde" Description="" Url=""><as:assemblyIdentity name="TrainTicketSalesAutomation.exe" version="1.0.0.0" publicKeyToken="a3aa895aa5205ec2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ORHAN\Enes Orhan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Wq5Kpt6jONMPPn2i6hP62jjtivgGVnfxi8NIOtu6Yao=</DigestValue></Reference></SignedInfo><SignatureValue>Om3WuNG0zPtB2I+qW0cjskkKpNhK0LvRXiB7KtJ/AEunQdIsdkehkkS/taA/FtbkjcjtG6xFc8rUukZ2seQgnCn2+eS4kvcPtR09OZU4BaoEgVXW4ajcou2M/JmZP27yL2yHf5R+snu3aAArYEA2kOIq5ogSSpJcPa08e7opIFY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rrVaTDzL7wn1cWzPYMjAbHFgDd/QqXCPv9W79WqbDz7Q1Le7ZKjnHYH8yq7wPydqtWaukvCpNnLNjAYJj7tNCYxQoti2zPMnaLh/IJlB0P4T1kB4ah3vInmySN5U1LWrs/Nc4bW3aL+VzEgwRcDjm1k57OukYM/O7TyWbI1fAn0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQLejoOybZk4NB8HCe2f/TPDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATwBSAEgAQQBOAFwARQBuAGUAcwAgAE8AcgBoAGEAbjAeFw0yMzA4MDEyMzQ0NDZaFw0yNDA4MDEwNTQ0NDZaMCsxKTAnBgNVBAMeIABPAFIASABBAE4AXABFAG4AZQBzACAATwByAGgAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCutVpMPMvvCfVxbM9gyMBscWAN39CpcI+/1bv1apsPPtDUt7tkqOcdgfzKrvA/J2q1Zq6S8Kk2cs2MBgmPu00JjFCi2LbM8ydouH8gmUHQ/hPWQHhqHe8iebJI3lTUtauz81zhtbdov5XMSDBFwOObWTns66Rgz87tPJZsjV8CfQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABYkOurecsy2OW16dd8IxNEbVhBDnz9sgQRHgNCLUPoXn3p1AsGesKiCo5FvPBKn/8UE/wGh/iy1NQZnd5qdFyMDO4NP1aqCN6Dhi1m6T9X/yEys3hxQagcDY22D+M4MJIIXUdknZkYCmkJeDkoL/noO6j2H/w8N2xSmSnmAivd7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
