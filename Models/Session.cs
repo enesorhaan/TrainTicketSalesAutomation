@@ -19,14 +19,18 @@ namespace TrainTicketSalesAutomation.Models
         private void SetDefaultChairs()
         {
             chairs = new List<Chair>();
+            string[] wagons = {"1","2","3"};
             string[] rows = { "a", "b", "c", "d" };
             string[] numbers = { "1", "2", "3", "4", "5", "6" };
-            foreach (string row in rows)
+            foreach (string wagon in wagons)
             {
-                foreach (string number in numbers)
+                foreach (string row in rows)
                 {
-                    Chair chair = new Chair(row,number);
-                    chairs.Add(chair);
+                    foreach (string number in numbers)
+                    {
+                        Chair chair = new Chair(wagon, row, number);
+                        chairs.Add(chair);
+                    }
                 }
             }
         }

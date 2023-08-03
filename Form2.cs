@@ -24,6 +24,8 @@ namespace TrainTicketSalesAutomation
         Route selectedRoute;
         Session selectedSession;
 
+        List<Chair> chairs = new List<Chair>();
+
         public void ListDetail(string _departure,string _destination,string _time,string _date)
         {
             int routeIndex = 0;
@@ -48,6 +50,8 @@ namespace TrainTicketSalesAutomation
                 else
                     routeIndex = 5;
             }
+            int wagonNumber = grbChairs.TabIndex;
+            lblWagon.Text = $"{wagonNumber}. Wagon";
             selectedRoute = routes[routeIndex];
             selectedSession = selectedRoute.sessions.Find(s => s.time == _time && s.date == _date);
             lblTime.Text = $"{_date} - {_time}";
@@ -64,17 +68,22 @@ namespace TrainTicketSalesAutomation
             {
                 if (item is Button)
                 {
+                    string wagon = grbChairs.TabIndex.ToString();
                     string row = item.Tag.ToString();
                     string number = item.Text;
                     item.Enabled = true;
                     foreach (Chair chair in selectedSession.chairs)
                     {
-                        if(chair.row == row && chair.number == number)
+                        if(chair.wagon == wagon && chair.row == row && chair.number == number)
                         {
-                            if (chair.status)
+                            if(chair.check)
                             {
-                                item.BackColor = Color.DarkRed;
-                                item.Enabled = false;
+                                item.BackColor = Color.Blue;
+                                if (chair.status)
+                                {
+                                    item.BackColor = Color.DarkRed;
+                                    item.Enabled = false;
+                                }
                             }
                             else
                             {
@@ -87,21 +96,23 @@ namespace TrainTicketSalesAutomation
             }
         }
 
-        List<Chair> chairs = new List<Chair>();
         private void button24_Click(object sender, EventArgs e)
         {
             Button button = sender as Button;
+            string wagon = grbChairs.TabIndex.ToString();
             string row = button.Tag.ToString();
             string number = button.Text;
-            Chair chair = selectedSession.chairs.Find(c => c.row == row && c.number == number);
+            Chair chair = selectedSession.chairs.Find(c => c.wagon == wagon && c.row == row && c.number == number);
             if(button.BackColor.Name != "Blue")
             {
                 chairs.Add(chair);
+                chair.check = true;
                 button.BackColor = Color.Blue;
             }
             else
             {
                 chairs.Remove(chair);
+                chair.check = false;
                 button.BackColor = Color.LightGreen;
             }
         }
@@ -151,6 +162,26 @@ namespace TrainTicketSalesAutomation
         private void btnCancel_Click(object sender, EventArgs e)
         {
             ChangePage();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            grbChairs.TabIndex += 1;
+            lblWagon.Text = $"{grbChairs.TabIndex}. Wagon";
+            btnPrevWagon.Enabled = true;
+            CheckChairsStatus();
+            if (grbChairs.TabIndex == 3)
+                btnNextWagon.Enabled = false;
+        }
+
+        private void btnPrevWagon_Click(object sender, EventArgs e)
+        {
+            grbChairs.TabIndex -= 1;
+            lblWagon.Text = $"{grbChairs.TabIndex}. Wagon";
+            btnNextWagon.Enabled = true;
+            CheckChairsStatus();
+            if (grbChairs.TabIndex == 1)
+                btnPrevWagon.Enabled = false;
         }
     }
 }
